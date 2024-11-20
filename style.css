@@ -690,4 +690,148 @@ span.psw {
    align-items: center;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+   .con skills-container {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .skill-container-left,
+   .iconsg {
+       flex: 1 1 100%;
+       text-align: center;
+   }
+
+   .iconp {
+       width: 40px;
+       height: 40px;
+   }
+
+   form {
+       width: 90%;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .skill-heading {
+       font-size: 1.5rem;
+   }
+
+   .para {
+       font-size: 0.9rem;
+   }
+
+   .iconp {
+       width: 30px;
+       height: 30px;
+   }
+
+   form input[type="text"],
+   form input[type="password"] {
+       font-size: 0.9rem;
+       padding: 0.6rem;
+   }
+
+   form button {
+       padding: 0.6rem;
+   }
+}
+
+
+/* For small devices (phones) */
+@media only screen  and (min-width:200px) and (max-width: 576px) {
+   .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .nav-items {
+       padding: 1rem 0;
+       gap: 1rem;
+       flex-wrap: wrap;
+   }
+   .hero-section {
+       flex-direction: column;
+       padding: 2rem;
+   }
+   .hero-section-left {
+       text-align: center;
+       gap: 1rem;
+   }
+   .hero-section-heading {
+       font-size: 1.5rem;
+   }
+   .hero-section-description {
+       width: 100%;
+       font-size: 0.9rem;
+   }
+   .project-card {
+       height: 400px;
+       width: 100%;
+   }
+   .project-content {
+       font-size: 1rem;
+       padding: 1rem;
+   }
+
+   
+}
+
+/* For medium devices (tablets) */
+@media screen and (max-width: 768px) {
+   .container {
+       width: 95%;
+   }
+   .hero-section {
+       gap: 2rem;
+       padding: 3rem;
+   }
+   .project-container {
+       flex-direction: column;
+       gap: 2rem;
+   }
+   .project-card {
+       height: 450px;
+       width: 100%;
+   }
+}
+
+/* For large devices (desktops) */
+@media screen and (max-width: 992px) {
+   .hero-section {
+       padding: 2rem 5rem;
+   }
+   .hero-section-description {
+       width: 80%;
+   }
+   .project-card {
+       height: 500px;
+   }
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
    
